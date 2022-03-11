@@ -1,13 +1,21 @@
 .carousel-item img{
-    opacity: 0.6;
 }
+body{
+	background: steelblue;
+	color: black;
+
+}
+h4{
+	color: white;
+}
+h2{color : red;
+	font-family: fantasy;}
 .nav-icon{
     background: #1b1b1b;
     width: 3.8rem;
     height:  3.8rem;
     border-radius: 50%;
     border: 0;
-    opacity: 0.7;
     text-shadow: none;
     color: #fff;
     position: absolute;
@@ -18,7 +26,7 @@
 .nav-icon:hover{
     background-color:  #000;
     opacity: 1.0;
-    transition: all ease 0.3s;
+    transition: all ease 0.5s;
     color: #fff;
 }
 .carousel-indicators li{
